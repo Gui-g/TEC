@@ -18,9 +18,6 @@ class CMD:
         self.direction = direction
         self.new_state = new_state
 
-    def string(self):
-        return str(self)
-
 #colocar símbolo especial # no começo da fita, para qualquer estado se ler # voltar
 def S_to_I(turing_machine):
 
